@@ -4,7 +4,7 @@ import "components/DayListItem.scss";
 
 export default function DayListItem(props) {
   const formatSpots = (spots) => {
-    let formattedSpots = "";
+    let formattedSpots;
     if (spots === 0) {
       formattedSpots = "no spots remaining";
     } else if (spots === 1) {
