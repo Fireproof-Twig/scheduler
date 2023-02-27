@@ -25,7 +25,6 @@ export default function Form(props) {
             placeholder="Enter Student Name"
             value={student}
             onChange={(event) => setStudent(event.target.value)}
-            reset={reset}
           />
         </form>
         <InterviewerList
