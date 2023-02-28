@@ -24,7 +24,7 @@ export function getInterview(state, interview) {
     student: interview.student,
     interviewer: state.interviewers[interviewerID],
   };
-  console.log(studentInterview);
+  // console.log(studentInterview);
   return studentInterview;
 }
 
