@@ -17,9 +17,6 @@ export function useApplicationData() {
       if (state.appointments[appointmentID].interview === null) {
         startNumber++;
       }
-      console.log("Appointment", appointmentID);
-      const appointment = state.appointments[appointmentID];
-      console.log("####", appointment);
     }
     return startNumber;
   };
