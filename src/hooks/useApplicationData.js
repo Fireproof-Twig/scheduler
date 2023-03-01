@@ -47,8 +47,6 @@ export function useApplicationData() {
         updateDaysSpots(newState);
         setState(newState);
       });
-
-    // transition(SHOW);
   }
 
   function cancelInterview(id) {
