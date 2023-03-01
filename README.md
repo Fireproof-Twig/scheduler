@@ -1,5 +1,9 @@
 # Interview Scheduler
 
+Interview scheduler is a single page application built using react.
+Data us persisted by the API server using a PostrgreSQL database.
+The client communicates with an API server over HTTP, using the JSON format.
+
 ## Setup
 
 Install dependencies with `npm install`.
@@ -21,3 +25,8 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Dependencies
+
+-axios
+-react
