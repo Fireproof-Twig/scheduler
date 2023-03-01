@@ -28,10 +28,11 @@ npm run storybook
 
 ## Dependencies
 
--axios
--react
+- axios
+- react
 
 ## Screenshots
 
 !["Mostly full day of appointments"](https://github.com/Fireproof-Twig/scheduler/blob/master/docs/filledAppointments.png)
+
 !["Empty day of appointments"](https://github.com/Fireproof-Twig/scheduler/blob/master/docs/emptyAppointments.png)
